@@ -14,9 +14,9 @@ public class FibnoaaciSeries {
 
 		int a = 0;
 		int b = 1;
-	
-		
-		for (int i = 0; i <= 10; i++) {
+	    System.out.println(a);
+		System.out.println(b);
+		for (int i = 0; i <= 3; i++) {
 			int c = a + b; // 1, 2, 3, 5, 8, 13
 			a = b;  //1, 1, 2, 3, 5
 		    b = c;  //1, 2, 3, 5, 8
